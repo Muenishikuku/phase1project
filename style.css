@@ -1,0 +1,56 @@
+/* Reset default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(4, 4, 4);
+}
+
+
+/* Style the header */
+h1 {
+    font-size: 36px;
+    color: #4285f4;
+}
+
+/* Style the search form container */
+#searchForm {
+    background-color: #b7acac;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px hsla(0, 11%, 96%, 0.733);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+/* Style the search input field */
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(218, 208, 208);
+}
+
+/* Style the search button */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #060708;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style the result container */
+#resultContainer {
+    text-align: center;
+    margin: 20px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgb(147, 144, 144);
+}
