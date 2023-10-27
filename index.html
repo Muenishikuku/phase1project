@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Google API Data Fetcher</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>Country Information</title>
+    <link rel="stylesheet" type="text/css" href="assets/index.css">     
 </head>
 <body>
-    <h1>Google</h1>
-    <form id="searchForm">
-        <input type="text" id="searchInput" placeholder="Enter your search query">
-        <button type="submit">Search</button>
-    </form>
-
-    <div id="resultContainer">
-        <!-- The fetched data will be displayed here -->
-    </div>
-
-    <script src="src/script.js"></script>
+    <h1>Country Information</h1>
+    <form id="country-form">
+        <label for="country-name">Enter a country name:</label>
+        <input type="text" id="country-name" required>
+        <button type="submit">Get Country Info</button>
+      </form>
+      
+      <div id="country-info"></div>
+    <script src="src/index.js"></script>
 </body>
 </html>
