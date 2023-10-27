@@ -51,6 +51,10 @@ Push the changes to your fork.
 Submit a pull request to the original repository.
 Please ensure your code adheres to good coding practices and includes necessary comments and documentation.
 
+## ## Authors
+* [Mueni Shikuku](https://github.com/Muenishikuku)
+
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
