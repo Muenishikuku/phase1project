@@ -13,7 +13,7 @@ License
 
 ## Demo
 
-Get a live demo of the project at []
+Get a live demo of the project at [https://countryinfoweb.netlify.app/]
 
 ## Prerequisites
 
